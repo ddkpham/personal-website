@@ -10,11 +10,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "fix-js": "eslint-auto-fix",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "airbnb-base"
   },
   "browserslist": {
     "production": [
@@ -27,5 +28,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-auto-fix": "^1.0.0",
+    "eslint-config-airbnb-base": "^14.0.0"
   }
 }
