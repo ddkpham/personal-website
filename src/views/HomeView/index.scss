@@ -1,0 +1,26 @@
+.action-button{ 
+  position: fixed;
+  bottom: 8rem;
+  left: 8rem;
+}
+
+.name-display { 
+
+  position: fixed; 
+  bottom: 18rem; 
+  left: 8rem;
+  h1 { 
+    flex: 1 0 91%;
+    font-size: 4rem; 
+    letter-spacing: 3px; 
+    margin: 10px auto;
+    width: 300px;
+    color: white;
+  }
+}
+
+.logo { 
+  position: fixed; 
+  top: 2rem; 
+  left: 8rem;
+}

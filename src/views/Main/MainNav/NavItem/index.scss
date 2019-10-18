@@ -1,0 +1,16 @@
+@import '../../../../../globals';
+
+.nav-item {
+  margin: 20px;
+  h5 { 
+    margin: 10px;
+    color: white; 
+    letter-spacing: 0.3rem;
+
+    &:hover { 
+      color: $color-gold--main;
+      cursor: pointer;
+    }
+  }
+}
+
