@@ -17,12 +17,6 @@ class MinimalCover extends Component {
           this.videoRef = videoRef;
         },
         onClick: () => {
-          // disable pausing for now
-          // if (this.videoRef && this.videoRef.paused) {
-          //   this.videoRef.play();
-          // } else if (this.videoRef) {
-          //   this.videoRef.pause();
-          // }
         },
         title: 'click to play/pause',
       };
