@@ -1,0 +1,70 @@
+@import '../../../globals';
+
+.about-view {
+  &__header {
+    position: relative;
+    .title-display { 
+
+      position: absolute; 
+      bottom: 18rem; 
+      left: 8rem;
+      h1 { 
+        flex: 1 0 91%;
+        font-size: 6rem; 
+        letter-spacing: 3px; 
+        margin: 10px auto;
+        width: 400px;
+        color: white;
+      }
+    }
+  }
+
+  &__content {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &__info {
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-light-grey;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    &:nth-child(even){
+      width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    }
+
+    &--picture {
+      margin: 8rem;
+      width: 25vw;
+      height: 80vh;
+    }
+
+    &--description {
+      margin: 8rem;
+      width: 40%;
+
+      .subtitle {
+        margin-bottom: 2rem;
+        h1 {
+          font-size: 5rem;
+        }
+
+      }
+
+      .info {
+        p {
+          font-size: 2rem;
+          line-height: 3rem;
+        }
+      }
+    }
+  }
+}

@@ -41,7 +41,7 @@
   "devDependencies": {
     "eslint-auto-fix": "^1.0.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint": "^5.11.1",
+    "eslint": "^6.0.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-babel": "^5.3.0",

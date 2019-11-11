@@ -2,10 +2,11 @@
 
 .nav-item {
   margin: 20px;
-  h5 { 
+  a { 
     margin: 10px;
     color: white; 
     letter-spacing: 0.3rem;
+    text-decoration: none;
 
     &:hover { 
       color: $color-gold--main;

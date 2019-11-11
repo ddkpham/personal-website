@@ -1,9 +1,7 @@
 import React from 'react';
 import {
     Route, 
-    Redirect, 
     Switch, 
-    Link,
 } from 'react-router-dom';
 
 import HomeView from '../HomeView';
@@ -15,10 +13,8 @@ function Main(){
     <div className="main-view">
     <MainNav />
       <section className="main-view__content">
-        <Switch>
-          <Route exact path="/about" component={AboutView} />
-          <Route path="/" component={HomeView} />
-        </Switch>
+        <HomeView />
+        <AboutView />
       </section>
     </div>
  )

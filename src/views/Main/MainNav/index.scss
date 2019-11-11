@@ -1,4 +1,11 @@
 .main-nav {
   display: flex; 
   justify-content: center;
+  left: 50%;
+  margin-top: 10px;
+  position: fixed;
+  top:0;
+  transform: translateX(-50%);
+  width: fit-content;
+  z-index: 1000;
 }
