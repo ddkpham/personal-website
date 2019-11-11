@@ -1,11 +1,8 @@
 import React from 'react'; 
 
 import VideoBackground from '../../components/video-background';
-import ActionButton from './Button';
+import ActionButton from '../../components/Button';
 import logo from '../../static/Logo.png';
-import ubc from '../../static/ubc.jpg';
-import sfu from '../../static/sfu.jpg';
-
 import './index.scss'
 
 function Home(){ 
@@ -21,7 +18,7 @@ function Home(){
         <h1>Developer.</h1>
       </div>
       <div className="action-button">
-        <ActionButton />
+        <ActionButton label={"PLEASE HIRE ME"}/>
       </div>
     </div>
     <div className="home-view__content">

@@ -1,0 +1,27 @@
+@import '../../../globals';
+
+.button-container {
+  border: 1px $color-gold--main solid;
+  width: fit-content;
+  height: 60px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color-gold--main, 0);
+  padding: 8px 36px;
+
+  &:hover{
+    cursor: pointer;
+    background-color: $color-gold--main;
+
+    h4{
+      letter-spacing: 0.3rem;
+      color: black;
+    }
+  }
+
+  h4{ 
+    letter-spacing: 0.3rem;
+    color: white;
+  }
+}

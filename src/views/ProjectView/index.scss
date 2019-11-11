@@ -1,0 +1,134 @@
+@import '../../../globals';
+
+
+@mixin font-base {
+  color: white;
+  position: absolute;
+  left: 50%;
+  width: fit-content;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.project-view {
+  width: 100vw; 
+  height: 100vh;
+  display: flex;
+  align-items: center;;
+
+  &__header {
+    background-image: linear-gradient(rgba(#000000, 0.4), rgba(#000000, 0.7)),
+    url('../../static/work-space.jpg');
+    background-size: cover;
+    height: 60vh;
+    width: 100vw;
+
+    h3 {
+      padding-top: 7rem; 
+      color: $color-gold--main;
+      font-size: 2rem;
+      width: fit-content;
+      margin: 0 auto;
+      letter-spacing: 0.3rem;
+    }
+
+    h1 {
+      padding-top: 1rem; 
+      color: white; 
+      font-size: 4rem;
+      width: fit-content;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  &__button { 
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 7rem;
+  }
+}
+
+.project-list {
+  height: 140vh; 
+  width: 100vw;
+  background-color: $color-light-grey;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  &__button {
+    width: fit-content;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0 auto;
+    width: fit-content;
+    padding-top: 10rem;
+
+    h1 {
+      font-size: 5rem;
+      font-weight: 700;
+      letter-spacing: 0.3rem;
+    }
+  }
+
+  &__project {
+    position: relative;
+    width: 22vw;
+    height: 22vw;
+    margin: 2rem 2rem;
+
+    img {
+      width: 22vw;
+      height: 22vw;
+      filter: grayscale(70%)
+    }
+
+    &:hover .project-list__overlay {
+      opacity: 0.7;
+    }
+  }
+
+  &__overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+
+    h1 {
+      @include font-base;
+      top: 30%;
+      font-size: 4rem;
+      letter-spacing: 0.2rem;
+
+    }
+
+    h2 {
+      @include font-base;
+      top: 40%;
+      font-size: 2rem;
+    }
+  }
+
+}

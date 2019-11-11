@@ -13,16 +13,12 @@
         font-size: 6rem; 
         letter-spacing: 3px; 
         margin: 10px auto;
-        width: 400px;
+        width: 100%;
         color: white;
       }
     }
   }
 
-  &__content {
-    width: 100vw;
-    height: 100vh;
-  }
 
   &__info {
     width: 100vw;
@@ -33,7 +29,7 @@
     align-items: center;
 
     &:nth-child(even){
-      width: 100vw;
+    width: 100vw;
     height: 100vh;
     background-color: white;
     display: flex; 

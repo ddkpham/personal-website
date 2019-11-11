@@ -1,12 +1,9 @@
 import React from 'react';
-import {
-    Route, 
-    Switch, 
-} from 'react-router-dom';
 
+import MainNav from './MainNav'
 import HomeView from '../HomeView';
 import AboutView from '../AboutView';
-import MainNav from './MainNav'
+import ProjectView from '../ProjectView'
 
 function Main(){ 
   return (
@@ -15,6 +12,7 @@ function Main(){
       <section className="main-view__content">
         <HomeView />
         <AboutView />
+        <ProjectView />
       </section>
     </div>
  )

@@ -11,7 +11,7 @@ function About(){
       <VideoBackground path="/autumn.mp4"/>
       <div className="title-display">
         <h1>David Pham</h1>
-        <h1>Sensitive.</h1>
+        <h1>Sensitive. but in a sexy way.</h1>
       </div>
     </div>
 
