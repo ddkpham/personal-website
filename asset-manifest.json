@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.0710758a.chunk.css",
-    "main.js": "/static/js/main.85ed3695.chunk.js",
-    "main.js.map": "/static/js/main.85ed3695.chunk.js.map",
+    "main.css": "/static/css/main.c400e798.chunk.css",
+    "main.js": "/static/js/main.6268e599.chunk.js",
+    "main.js.map": "/static/js/main.6268e599.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0b8d289b.js",
     "runtime-main.js.map": "/static/js/runtime-main.0b8d289b.js.map",
-    "static/js/2.6a14c476.chunk.js": "/static/js/2.6a14c476.chunk.js",
-    "static/js/2.6a14c476.chunk.js.map": "/static/js/2.6a14c476.chunk.js.map",
+    "static/js/2.68f6df5b.chunk.js": "/static/js/2.68f6df5b.chunk.js",
+    "static/js/2.68f6df5b.chunk.js.map": "/static/js/2.68f6df5b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4819b2ebdea33abb570a224a63cf5b81.js": "/precache-manifest.4819b2ebdea33abb570a224a63cf5b81.js",
+    "precache-manifest.fbb09f980f17008eb5faee1d10f44512.js": "/precache-manifest.fbb09f980f17008eb5faee1d10f44512.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0710758a.chunk.css.map": "/static/css/main.0710758a.chunk.css.map",
+    "static/css/main.c400e798.chunk.css.map": "/static/css/main.c400e798.chunk.css.map",
     "static/media/Logo.png": "/static/media/Logo.8cb3927f.png",
-    "static/media/bonfire.jpg": "/static/media/bonfire.515722d6.jpg",
-    "static/media/compress.jpg": "/static/media/compress.f9a1b5c1.jpg",
-    "static/media/dna.jpg": "/static/media/dna.d35341a0.jpg",
-    "static/media/gym.jpg": "/static/media/gym.8effeb54.jpg",
-    "static/media/mountain.jpg": "/static/media/mountain.721550da.jpg",
-    "static/media/pepper-touch.jpg": "/static/media/pepper-touch.77acf92f.jpg",
-    "static/media/productive.jpg": "/static/media/productive.67b62827.jpg",
-    "static/media/serious-pepper.jpg": "/static/media/serious-pepper.dbbfafe1.jpg",
-    "static/media/index.scss": "/static/media/work-space.85cb9089.jpg"
+    "static/media/bonfire.jpg": "/static/media/bonfire.905c8a98.jpg",
+    "static/media/compress.jpg": "/static/media/compress.bdd0bf4e.jpg",
+    "static/media/dna.jpg": "/static/media/dna.01c15bc9.jpg",
+    "static/media/gym.jpg": "/static/media/gym.0ee4ca68.jpg",
+    "static/media/mountain.jpg": "/static/media/mountain.eaddb739.jpg",
+    "static/media/pepper-touch.jpg": "/static/media/pepper-touch.dddc3f88.jpg",
+    "static/media/productive.jpg": "/static/media/productive.3592d3e2.jpg",
+    "static/media/serious-pepper.jpg": "/static/media/serious-pepper.c99c1528.jpg",
+    "static/media/index.scss": "/static/media/work-space.2f1044c5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0b8d289b.js",
-    "static/js/2.6a14c476.chunk.js",
-    "static/css/main.0710758a.chunk.css",
-    "static/js/main.85ed3695.chunk.js"
+    "static/js/2.68f6df5b.chunk.js",
+    "static/css/main.c400e798.chunk.css",
+    "static/js/main.6268e599.chunk.js"
   ]
 }
