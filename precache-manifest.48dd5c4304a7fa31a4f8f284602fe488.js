@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8161710d03b129dc40e013a7af9bd2e",
+    "revision": "bb488c3d86dd5f1c5bd00492ec0d9d7e",
     "url": "/index.html"
   },
   {
-    "revision": "e012584d34d3f3e61fb6",
-    "url": "/static/css/main.aec9cd0a.chunk.css"
+    "revision": "2c252413cb01981f33f5",
+    "url": "/static/css/main.416778e3.chunk.css"
   },
   {
-    "revision": "50710e8cd01d9e021254",
-    "url": "/static/js/2.ffdcb9f8.chunk.js"
+    "revision": "3ab691f90ddbc235d6be",
+    "url": "/static/js/2.e1ca27b4.chunk.js"
   },
   {
-    "revision": "e012584d34d3f3e61fb6",
-    "url": "/static/js/main.64387ad2.chunk.js"
+    "revision": "2c252413cb01981f33f5",
+    "url": "/static/js/main.3011b368.chunk.js"
   },
   {
     "revision": "e8e24ed5672dbe4968e6",
@@ -60,8 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/serious-pepper.c99c1528.jpg"
   },
   {
+    "revision": "1f76de5b45e88463c19e1faec6304be5",
+    "url": "/static/media/sfu-logo.1f76de5b.png"
+  },
+  {
     "revision": "a2d696c5c11982eb99773468fb6b45d2",
     "url": "/static/media/sfu.a2d696c5.jpg"
+  },
+  {
+    "revision": "6c9611478c49f0adc91d2397349f4b53",
+    "url": "/static/media/ubc-logo.6c961147.png"
   },
   {
     "revision": "7f88e8441bf5bc610f62b95e3659abd9",
