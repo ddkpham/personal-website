@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ebb10d7.chunk.css",
-    "main.js": "/static/js/main.711a0120.chunk.js",
-    "main.js.map": "/static/js/main.711a0120.chunk.js.map",
+    "main.css": "/static/css/main.8e5aecb3.chunk.css",
+    "main.js": "/static/js/main.8d6bbe98.chunk.js",
+    "main.js.map": "/static/js/main.8d6bbe98.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0b8d289b.js",
     "runtime-main.js.map": "/static/js/runtime-main.0b8d289b.js.map",
-    "static/js/2.e1ca27b4.chunk.js": "/static/js/2.e1ca27b4.chunk.js",
-    "static/js/2.e1ca27b4.chunk.js.map": "/static/js/2.e1ca27b4.chunk.js.map",
+    "static/js/2.4902c086.chunk.js": "/static/js/2.4902c086.chunk.js",
+    "static/js/2.4902c086.chunk.js.map": "/static/js/2.4902c086.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.078457dc1d67e59383099c43e24e1d0c.js": "/precache-manifest.078457dc1d67e59383099c43e24e1d0c.js",
+    "precache-manifest.3d57e43d264f3c3b587c4e46caf64cf7.js": "/precache-manifest.3d57e43d264f3c3b587c4e46caf64cf7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5ebb10d7.chunk.css.map": "/static/css/main.5ebb10d7.chunk.css.map",
+    "static/css/main.8e5aecb3.chunk.css.map": "/static/css/main.8e5aecb3.chunk.css.map",
     "static/media/Logo.png": "/static/media/Logo.8cb3927f.png",
     "static/media/bonfire.jpg": "/static/media/bonfire.905c8a98.jpg",
     "static/media/compress.jpg": "/static/media/compress.bdd0bf4e.jpg",
@@ -20,14 +20,15 @@
     "static/media/mountain.jpg": "/static/media/mountain.eaddb739.jpg",
     "static/media/pepper-touch.jpg": "/static/media/pepper-touch.dddc3f88.jpg",
     "static/media/productive.jpg": "/static/media/productive.3592d3e2.jpg",
+    "static/media/resume.pdf": "/static/media/resume.1bc51934.pdf",
     "static/media/serious-pepper.jpg": "/static/media/serious-pepper.c99c1528.jpg",
     "static/media/sfu-logo.png": "/static/media/sfu-logo.1f76de5b.png",
     "static/media/ubc-logo.png": "/static/media/ubc-logo.6c961147.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0b8d289b.js",
-    "static/js/2.e1ca27b4.chunk.js",
-    "static/css/main.5ebb10d7.chunk.css",
-    "static/js/main.711a0120.chunk.js"
+    "static/js/2.4902c086.chunk.js",
+    "static/css/main.8e5aecb3.chunk.css",
+    "static/js/main.8d6bbe98.chunk.js"
   ]
 }
