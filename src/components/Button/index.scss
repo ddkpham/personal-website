@@ -14,13 +14,15 @@
     cursor: pointer;
     background-color: $color-gold--main;
 
-    h4{
+    a {
+      text-decoration: none;
       letter-spacing: 0.3rem;
       color: black;
     }
   }
 
-  h4{ 
+  a{ 
+    text-decoration: none;
     letter-spacing: 0.3rem;
     color: white;
   }

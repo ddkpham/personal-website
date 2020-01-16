@@ -1,7 +1,7 @@
 import React from 'react';
 import NavItem from './NavItem'
 import './index.scss'
-const MAIN_SECTIONS = ['Portfolio', 'About', 'Resume', 'Blog']
+const MAIN_SECTIONS = ['Portfolio', 'About', 'Resume', 'Github']
 
 function MainNav(){
 

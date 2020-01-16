@@ -1,66 +1,218 @@
 @import '../../../globals';
 
+@media screen and (max-width: 500px){
 .about-view {
-  &__header {
-    position: relative;
-    .title-display { 
-
-      position: absolute; 
-      bottom: 18rem; 
-      left: 8rem;
-      h1 { 
-        flex: 1 0 91%;
-        font-size: 6rem; 
-        letter-spacing: 3px; 
-        margin: 10px auto;
-        width: 100%;
-        color: white;
-      }
-    }
-  }
-
-
   &__info {
     width: 100vw;
-    height: 100vh;
-    background-color: $color-light-grey;
+    height: fit-content;
+    background-color: white;
     display: flex; 
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 
     &:nth-child(even){
     width: 100vw;
-    height: 100vh;
-    background-color: white;
+    height: fit-content;
+    background-color: $color-light-grey;
     display: flex; 
-    justify-content: center;
     align-items: center;
+
+    .reorder {
+      order: 2;
+    }
+
+    .reorder2 { 
+      order: 1;
+    }
     }
 
     &--picture {
-      margin: 8rem;
-      width: 25vw;
-      height: 80vh;
+      padding-top: 15%;
+      padding-bottom: 15% ;
+      width: 80vw;
+      height: 60vh;
+
+      img {
+        width: 80vw;
+        height: 60vh;
+      }
     }
 
     &--description {
-      margin: 8rem;
-      width: 40%;
+      padding-top: 15%;
+      padding-bottom: 15% ;
+      width: 80vw;
 
       .subtitle {
         margin-bottom: 2rem;
+        margin-top: 2rem;
         h1 {
-          font-size: 5rem;
+          font-size: 2.5rem;
         }
 
       }
 
       .info {
         p {
-          font-size: 2rem;
+          font-size: 1.5rem;
           line-height: 3rem;
         }
       }
+    }
+  }
+}
+}
+
+@media screen and (min-width: 501px) and (max-width: 770px){
+  .about-view {
+    &__header {
+      position: relative;
+      .title-display { 
+  
+        position: absolute; 
+        bottom: 18rem; 
+        left: 8rem;
+        h1 { 
+          flex: 1 0 91%;
+          font-size: 6rem; 
+          letter-spacing: 3px; 
+          margin: 10px auto;
+          width: 100%;
+          color: white;
+        }
+      }
+    }
+  
+  
+    &__info {
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+  
+      &:nth-child(even){
+      width: 100vw;
+      height: 100vh;
+      background-color: $color-light-grey;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      }
+  
+      &--picture {
+        margin: 4rem;
+        width: 45vw;
+        height: 80vh;
+  
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+  
+      &--description {
+        margin: 3rem;
+        width: 40%;
+  
+        .subtitle {
+          margin-bottom: 2rem;
+          h1 {
+            font-size: 3rem;
+          }
+  
+        }
+  
+        .info {
+          p {
+            font-size: 2rem;
+            line-height: 3rem;
+          }
+        }
+      }
+    }
+  
+    &--mobile {
+      
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 771px){
+  .about-view {
+    &__header {
+      position: relative;
+      .title-display { 
+  
+        position: absolute; 
+        bottom: 18rem; 
+        left: 8rem;
+        h1 { 
+          flex: 1 0 91%;
+          font-size: 6rem; 
+          letter-spacing: 3px; 
+          margin: 10px auto;
+          width: 100%;
+          color: white;
+        }
+      }
+    }
+  
+  
+    &__info {
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+  
+      &:nth-child(even){
+      width: 100vw;
+      height: 100vh;
+      background-color: $color-light-grey;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      }
+  
+      &--picture {
+        margin: 8rem;
+        width: 25vw;
+        height: 80vh;
+  
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+  
+      &--description {
+        margin: 8rem;
+        width: 40%;
+  
+        .subtitle {
+          margin-bottom: 2rem;
+          h1 {
+            font-size: 5rem;
+          }
+  
+        }
+  
+        .info {
+          p {
+            font-size: 2rem;
+            line-height: 3rem;
+          }
+        }
+      }
+    }
+  
+    &--mobile {
+      
     }
   }
 }

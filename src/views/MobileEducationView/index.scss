@@ -1,0 +1,58 @@
+@import '../../../globals';
+
+.mobile-ed {
+
+  &__header {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+    h1 {
+      width: fit-content;
+      color: $color-gold--main;
+    }
+  }
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+}
+
+.ed-card {
+  display: flex;
+  justify-content: center;
+  width: 90vw; 
+  margin: 2rem auto;
+  padding: 2rem;
+
+  .ed-pic {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 3rem;
+
+    img {
+      width: 15vw;
+      height: 15vw;
+    }
+  }
+
+  .ed-info {
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      padding-top: 1rem;
+      color: $color-gold--main;
+      font-size: 1.2rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+
+}
