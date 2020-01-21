@@ -1,21 +1,38 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-import Button from '@material-ui/core/Button'
 import resume from '../../static/resume.pdf';
-import './index.scss'
+import './index.scss';
 
-function ActionButton(props){ 
+/**
+ *
+ * @param {*} props object
+ * @param {string} props.label filler text for button
+ * @param {string} props.link url path to be redirected to on click
+ */
+function ActionButton(props) {
   const { label } = props;
   let { link } = props;
-  if(!link){
+  if (!link) {
     link = resume;
   }
 
-  return(
-   <div className="button-container">
-     <a href={link} alt="link">{label}</a>
-   </div>
-  )
+  return (
+    <div className="button-container">
+      <a href={link} alt="link">
+        {label}
+      </a>
+    </div>
+  );
 }
+
+ActionButton.propTypes = {
+  label: PropTypes.string.isRequired,
+  link: PropTypes.string
+};
+
+ActionButton.defaultProps = {
+  link: '#'
+};
 
 export default ActionButton;

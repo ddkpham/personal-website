@@ -10,38 +10,38 @@ const projects = [
     title: 'GraphKB',
     subtitle: 'React, ag-Grid, D3, MUI',
     picture: genePic,
-    link: 'temp',
+    link: 'temp'
   },
   {
     title: 'Telepresence',
-    subtitle: 'Python, Dialog, Javascirpt, Andriod',
+    subtitle: 'Python, Dialog, Javascript, Andriod',
     picture: seriousPepper,
-    link: 'https://github.com/ddkpham/Telepresence',
+    link: 'https://github.com/ddkpham/Telepresence'
   },
   {
     title: 'Compression Visualizer',
     subtitle: 'React, Python, Bootstrap, Flask',
     picture: compress,
-    link: 'https://github.com/ddkpham/multimedia_website',
+    link: 'https://github.com/ddkpham/multimedia_website'
   },
   {
     title: 'Affective Computing',
     subtitle: 'Python, Dialog, Javascript, C++',
     picture: runwayPepper,
-    link: 'temp',
+    link: 'temp'
   },
   {
     title: 'FitTrkr',
     subtitle: 'Python, Flask, SQL, Bootstrap',
     picture: gym,
-    link: 'https://github.com/ddkpham/FitTrkr',
+    link: 'https://github.com/ddkpham/FitTrkr'
   },
   {
     title: 'Boost',
     subtitle: 'Python, Tkinter',
     picture: productive,
-    link: 'https://github.com/ddkpham/productivity_booster',
-  },
+    link: 'https://github.com/ddkpham/productivity_booster'
+  }
 ];
 
 export default projects;
