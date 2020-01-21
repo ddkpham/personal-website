@@ -1,6 +1,6 @@
 
 ## Available Scripts
 
-Personal website to showcase projects and host documents. 
+Personal website that describes my personality, showcases my portfolio and links to my CV.
 
-live at: www.ddkpham.com
+live at: https://ddkpham.com/
