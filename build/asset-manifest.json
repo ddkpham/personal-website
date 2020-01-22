@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.dba89a78.chunk.css",
-    "main.js": "/static/js/main.52bcca2b.chunk.js",
-    "main.js.map": "/static/js/main.52bcca2b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0b8d289b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0b8d289b.js.map",
-    "static/js/2.4721ad42.chunk.js": "/static/js/2.4721ad42.chunk.js",
-    "static/js/2.4721ad42.chunk.js.map": "/static/js/2.4721ad42.chunk.js.map",
+    "main.css": "/static/css/main.63d3be8b.chunk.css",
+    "main.js": "/static/js/main.cb5db802.chunk.js",
+    "main.js.map": "/static/js/main.cb5db802.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa739829.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa739829.js.map",
+    "static/js/2.bafefa6b.chunk.js": "/static/js/2.bafefa6b.chunk.js",
+    "static/js/2.bafefa6b.chunk.js.map": "/static/js/2.bafefa6b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ac0a3f2679baee67f48627de6b2a730d.js": "/precache-manifest.ac0a3f2679baee67f48627de6b2a730d.js",
+    "precache-manifest.cbd5abe6d5e76c61557f3939dfd425a3.js": "/precache-manifest.cbd5abe6d5e76c61557f3939dfd425a3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.dba89a78.chunk.css.map": "/static/css/main.dba89a78.chunk.css.map",
+    "static/css/main.63d3be8b.chunk.css.map": "/static/css/main.63d3be8b.chunk.css.map",
+    "static/js/2.bafefa6b.chunk.js.LICENSE": "/static/js/2.bafefa6b.chunk.js.LICENSE",
     "static/media/Logo.png": "/static/media/Logo.8cb3927f.png",
     "static/media/bonfire.jpg": "/static/media/bonfire.905c8a98.jpg",
     "static/media/compress.jpg": "/static/media/compress.bdd0bf4e.jpg",
@@ -20,15 +21,15 @@
     "static/media/mountain.jpg": "/static/media/mountain.eaddb739.jpg",
     "static/media/pepper-touch.jpg": "/static/media/pepper-touch.dddc3f88.jpg",
     "static/media/productive.jpg": "/static/media/productive.3592d3e2.jpg",
-    "static/media/resume.pdf": "/static/media/resume.1cbf3252.pdf",
+    "static/media/resume.pdf": "/static/media/resume.7fae5809.pdf",
     "static/media/serious-pepper.jpg": "/static/media/serious-pepper.c99c1528.jpg",
     "static/media/sfu-logo.png": "/static/media/sfu-logo.1f76de5b.png",
     "static/media/ubc-logo.png": "/static/media/ubc-logo.6c961147.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b8d289b.js",
-    "static/js/2.4721ad42.chunk.js",
-    "static/css/main.dba89a78.chunk.css",
-    "static/js/main.52bcca2b.chunk.js"
+    "static/js/runtime-main.aa739829.js",
+    "static/js/2.bafefa6b.chunk.js",
+    "static/css/main.63d3be8b.chunk.css",
+    "static/js/main.cb5db802.chunk.js"
   ]
 }

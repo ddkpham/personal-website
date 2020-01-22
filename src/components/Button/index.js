@@ -12,6 +12,7 @@ import './index.scss';
  */
 function ActionButton(props) {
   const { label } = props;
+  console.log('TCL: ActionButton -> props', props);
   let { link } = props;
   if (!link) {
     link = resume;
@@ -32,7 +33,7 @@ ActionButton.propTypes = {
 };
 
 ActionButton.defaultProps = {
-  link: '#'
+  link: resume
 };
 
 export default ActionButton;
