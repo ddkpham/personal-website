@@ -12,7 +12,6 @@ import './index.scss';
  */
 function ActionButton(props) {
   const { label } = props;
-  console.log('TCL: ActionButton -> props', props);
   let { link } = props;
   if (!link) {
     link = resume;
