@@ -1,6 +1,5 @@
 @import '../../../globals';
 
-
 @mixin font-base {
   color: white;
   position: absolute;
@@ -13,20 +12,20 @@
   text-align: center;
 }
 .project-view {
-  width: 100vw; 
+  width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;;
+  align-items: center;
 
   &__header {
     background-image: linear-gradient(rgba(#000000, 0.4), rgba(#000000, 0.7)),
-    url('../../static/work-space.jpg');
+      url('../../static/work-space.jpg');
     background-size: cover;
     height: 60vh;
     width: 100vw;
 
     h3 {
-      padding-top: 7rem; 
+      padding-top: 7rem;
       color: $color-gold--main;
       font-size: 2rem;
       width: fit-content;
@@ -35,8 +34,8 @@
     }
 
     h1 {
-      padding-top: 1rem; 
-      color: white; 
+      padding-top: 1rem;
+      color: white;
       font-size: 4rem;
       width: fit-content;
       margin: 0 auto;
@@ -44,27 +43,27 @@
     }
   }
 
-  &__button { 
+  &__button {
     width: fit-content;
     margin: 0 auto;
     padding-top: 7rem;
   }
 
   &--mobile {
-    width: 100vw; 
+    width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;;
+    align-items: center;
 
     &__header {
       background-image: linear-gradient(rgba(#000000, 0.4), rgba(#000000, 0.7)),
-      url('../../static/work-space.jpg');
+        url('../../static/work-space.jpg');
       background-size: cover;
       height: 60vh;
       width: 100vw;
 
       h3 {
-        padding-top: 10rem; 
+        padding-top: 10rem;
         color: $color-gold--main;
         font-size: 1.2rem;
         width: fit-content;
@@ -73,8 +72,8 @@
       }
 
       h1 {
-        padding: 1rem; 
-        color: white; 
+        padding: 1rem;
+        color: white;
         font-size: 2rem;
         width: fit-content;
         margin: 0 auto;
@@ -82,7 +81,7 @@
       }
     }
 
-    &__button { 
+    &__button {
       width: fit-content;
       margin: 0 auto;
       padding-top: 5rem;
@@ -91,12 +90,12 @@
 }
 
 .project-list {
-  height: 150vh; 
+  height: 250vh;
   width: 100vw;
   background-color: $color-light-grey;
 
   &--mobile {
-    height: calc(6 * 48vh); 
+    height: calc(11 * 48vh);
     width: 100vw;
     background-color: $color-light-grey;
   }
@@ -112,13 +111,13 @@
 
   &__button {
     width: fit-content;
-    @media screen and (min-width: 501px) and (max-width: 771px){
+    @media screen and (min-width: 501px) and (max-width: 771px) {
       width: 25px;
       left: 17%;
       top: 70%;
     }
     position: absolute;
-    top:60%;
+    top: 60%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -136,11 +135,12 @@
       letter-spacing: 0.3rem;
       color: $color-gold--main;
       @media only screen and (max-width: 500px) {
-        font-size: 3rem
+        font-size: 3rem;
+        text-align: center;
       }
 
       @media only screen and (min-width: 600px) and (max-width: 770px) {
-        font-size: 4rem
+        font-size: 4rem;
       }
       @media only screen and (min-width: 771px) {
         font-size: 5vh;
@@ -157,13 +157,12 @@
     img {
       width: 22vw;
       height: 22vw;
-      filter: grayscale(70%)
+      filter: grayscale(70%);
     }
 
     &:hover .project-list__overlay {
       opacity: 0.7;
     }
-
 
     &--mobile {
       position: relative;
@@ -174,7 +173,7 @@
       img {
         width: 62vw;
         height: 62vw;
-        filter: grayscale(70%)
+        filter: grayscale(70%);
       }
 
       &:hover .project-list__overlay {
@@ -183,7 +182,7 @@
     }
   }
 
-  &__overlay{
+  &__overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -192,7 +191,7 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 0.5s ease;
     background-color: #000000;
 
     h1 {
@@ -201,14 +200,14 @@
       letter-spacing: 0.2rem;
 
       @media only screen and (min-width: 100px) {
-        font-size: 1.5rem
+        font-size: 1.5rem;
       }
 
       @media only screen and (min-width: 600px) {
-        font-size: 2rem
+        font-size: 2rem;
       }
       @media only screen and (min-width: 1000px) {
-        font-size: 4rem
+        font-size: 4rem;
       }
     }
 
@@ -217,7 +216,7 @@
       top: 40%;
 
       @media only screen and (min-width: 100px) {
-        font-size: 1.5rem
+        font-size: 1.5rem;
       }
 
       @media only screen and (min-width: 500px) and (max-width: 770px) {
@@ -225,9 +224,8 @@
         opacity: 0;
       }
       @media only screen and (min-width: 771px) {
-        font-size: 2rem
+        font-size: 2rem;
       }
     }
   }
-
 }
