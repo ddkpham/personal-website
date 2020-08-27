@@ -13,6 +13,18 @@ import covidImage from '../../static/covid.jpg';
 
 const projects = [
   {
+    title: 'Dhyana',
+    subtitle: 'React, Node, Sequelize, Docker',
+    picture: dhyanaImage,
+    link: 'https://github.com/ddkpham/dhyana',
+  },
+  {
+    title: 'Covid Dash',
+    subtitle: 'React, ChartJS',
+    picture: covidImage,
+    link: 'https://github.com/ddkpham/canada-covid-dash',
+  },
+  {
     title: 'PikaCompiler',
     subtitle: 'Java, JUnit',
     picture: compilerPic,
@@ -22,16 +34,16 @@ const projects = [
     title: 'Lucid Images',
     subtitle: 'Golang, React, Python, RabbitMQ',
     picture: lucidImage,
-    link: 'https://github.com/ddkpham/polyglot-image-processor',
+    link: 'https://github.com/ddkpham/lucid-images',
   },
   {
-    title: 'Dhyana',
-    subtitle: 'React, Node, Sequelize, Docker',
-    picture: dhyanaImage,
-    link: 'https://github.com/ddkpham/dhyana',
+    title: 'Compress Tool',
+    subtitle: 'React, Python, Bootstrap, Flask',
+    picture: compress,
+    link: 'https://github.com/ddkpham/multimedia_website',
   },
   {
-    title: 'Protein Visualizer',
+    title: 'Protein Tool',
     subtitle: 'React, D3',
     picture: proteinImage,
     link: 'https://github.com/ddkpham/protein-visualizer',
@@ -43,34 +55,10 @@ const projects = [
     link: 'https://github.com/alik604/CMPT-419L',
   },
   {
-    title: 'Covid Dash',
-    subtitle: 'Preact, ChartJS',
-    picture: covidImage,
-    link: 'https://github.com/ddkpham/preact-covid-dash',
-  },
-  {
-    title: 'GraphKB',
-    subtitle: 'React, ag-Grid, D3, MUI',
-    picture: genePic,
-    link: 'temp',
-  },
-  {
     title: 'Telepresence',
     subtitle: 'Python, Dialog, Javascript, Andriod',
     picture: seriousPepper,
     link: 'https://github.com/ddkpham/Telepresence',
-  },
-  {
-    title: 'Compression Visualizer',
-    subtitle: 'React, Python, Bootstrap, Flask',
-    picture: compress,
-    link: 'https://ddkpham.github.io/multimedia_website/#/huffman',
-  },
-  {
-    title: 'Affective Computing',
-    subtitle: 'Python, Dialog, Javascript, C++',
-    picture: runwayPepper,
-    link: 'temp',
   },
   {
     title: 'FitTrkr',
@@ -83,6 +71,18 @@ const projects = [
     subtitle: 'Python, Tkinter',
     picture: productive,
     link: 'https://github.com/ddkpham/productivity_booster',
+  },
+  {
+    title: 'GraphKB',
+    subtitle: 'React, ag-Grid, D3, MUI',
+    picture: genePic,
+    link: 'temp',
+  },
+  {
+    title: 'Affective Computing',
+    subtitle: 'Python, Dialog, Javascript, C++',
+    picture: runwayPepper,
+    link: 'temp',
   },
 ];
 
